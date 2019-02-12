@@ -17,7 +17,12 @@ export default class Horoscopes extends React.Component {
       >
         <View style={styles.mainContainer}>
           <View style={[styles.rowContainer, styles.rowContainerOdd]}>
-            <TouchableOpacity style={styles.button}>
+            <TouchableOpacity
+              style={styles.button}
+              onPress={() => {
+                this.props.navigator.navigate ('HoroscopeComment');
+              }}
+            >
               <Image
                 source={require ('../assets/img/aquarius.png')}
                 style={styles.img}
