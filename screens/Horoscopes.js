@@ -20,7 +20,9 @@ export default class Horoscopes extends React.Component {
             <TouchableOpacity
               style={styles.button}
               onPress={() => {
-                this.props.navigator.navigate ('HoroscopeComment');
+                this.props.navigation.navigate ('HoroscopeComment', {
+                  photo: require ('../assets/img/aquarius.png'),
+                });
               }}
             >
               <Image
