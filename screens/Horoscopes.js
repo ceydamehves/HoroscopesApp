@@ -30,7 +30,12 @@ export default class Horoscopes extends React.Component {
                 style={styles.img}
               />
             </TouchableOpacity>
-            <TouchableOpacity style={styles.button}>
+            <TouchableOpacity style={styles.button}
+            onPress={() => {
+                this.props.navigation.navigate ('HoroscopeComment', {
+                  photo: require ('../assets/img/aries.png'),
+                });
+              }}>
 
               <Image
                 source={require ('../assets/img/aries.png')}
@@ -39,13 +44,23 @@ export default class Horoscopes extends React.Component {
             </TouchableOpacity>
           </View>
           <View style={[styles.rowContainer, styles.rowContainerEven]}>
-            <TouchableOpacity style={styles.button}>
+            <TouchableOpacity style={styles.button}
+            onPress={() => {
+                this.props.navigation.navigate ('HoroscopeComment', {
+                  photo: require ('../assets/img/cancer.png'),
+                });
+              }}>
               <Image
                 source={require ('../assets/img/cancer.png')}
                 style={styles.img}
               />
             </TouchableOpacity>
-            <TouchableOpacity style={styles.button}>
+            <TouchableOpacity style={styles.button}
+            onPress={() => {
+                this.props.navigation.navigate ('HoroscopeComment', {
+                  photo: require ('../assets/img/capricorn.png'),
+                });
+              }}>
 
               <Image
                 source={require ('../assets/img/capricorn.png')}
@@ -54,13 +69,23 @@ export default class Horoscopes extends React.Component {
             </TouchableOpacity>
           </View>
           <View style={[styles.rowContainer, styles.rowContainerOdd]}>
-            <TouchableOpacity style={styles.button}>
+            <TouchableOpacity style={styles.button}
+            onPress={() => {
+                this.props.navigation.navigate ('HoroscopeComment', {
+                  photo: require ('../assets/img/gemini.png'),
+                });
+              }}>
               <Image
                 source={require ('../assets/img/gemini.png')}
                 style={styles.img}
               />
             </TouchableOpacity>
-            <TouchableOpacity style={styles.button}>
+            <TouchableOpacity style={styles.button}
+            onPress={() => {
+                this.props.navigation.navigate ('HoroscopeComment', {
+                  photo: require ('../assets/img/leo.png'),
+                });
+              }}>
 
               <Image
                 source={require ('../assets/img/leo.png')}
@@ -69,13 +94,23 @@ export default class Horoscopes extends React.Component {
             </TouchableOpacity>
           </View>
           <View style={[styles.rowContainer, styles.rowContainerEven]}>
-            <TouchableOpacity style={styles.button}>
+            <TouchableOpacity style={styles.button}
+            onPress={() => {
+                this.props.navigation.navigate ('HoroscopeComment', {
+                  photo: require ('../assets/img/libra.png'),
+                });
+              }}>
               <Image
                 source={require ('../assets/img/libra.png')}
                 style={styles.img}
               />
             </TouchableOpacity>
-            <TouchableOpacity style={styles.button}>
+            <TouchableOpacity style={styles.button}
+            onPress={() => {
+                this.props.navigation.navigate ('HoroscopeComment', {
+                  photo: require ('../assets/img/pisces.png'),
+                });
+              }}>
 
               <Image
                 source={require ('../assets/img/pisces.png')}
@@ -84,13 +119,23 @@ export default class Horoscopes extends React.Component {
             </TouchableOpacity>
           </View>
           <View style={[styles.rowContainer, styles.rowContainerOdd]}>
-            <TouchableOpacity style={styles.button}>
+            <TouchableOpacity style={styles.button}
+            onPress={() => {
+                this.props.navigation.navigate ('HoroscopeComment', {
+                  photo: require ('../assets/img/sagittarius.png'),
+                });
+              }}>
               <Image
                 source={require ('../assets/img/sagittarius.png')}
                 style={styles.img}
               />
             </TouchableOpacity>
-            <TouchableOpacity style={styles.button}>
+            <TouchableOpacity style={styles.button}
+            onPress={() => {
+                this.props.navigation.navigate ('HoroscopeComment', {
+                  photo: require ('../assets/img/scorpio.png'),
+                });
+              }}>
 
               <Image
                 source={require ('../assets/img/scorpio.png')}
@@ -99,13 +144,23 @@ export default class Horoscopes extends React.Component {
             </TouchableOpacity>
           </View>
           <View style={[styles.rowContainer, styles.rowContainerEven]}>
-            <TouchableOpacity style={styles.button}>
+            <TouchableOpacity style={styles.button}
+            onPress={() => {
+                this.props.navigation.navigate ('HoroscopeComment', {
+                  photo: require ('../assets/img/taurus.png'),
+                });
+              }}>
               <Image
                 source={require ('../assets/img/taurus.png')}
                 style={styles.img}
               />
             </TouchableOpacity>
-            <TouchableOpacity style={styles.button}>
+            <TouchableOpacity style={styles.button}
+            onPress={() => {
+                this.props.navigation.navigate ('HoroscopeComment', {
+                  photo: require ('../assets/img/virgo.png'),
+                });
+              }}>
 
               <Image
                 source={require ('../assets/img/virgo.png')}
