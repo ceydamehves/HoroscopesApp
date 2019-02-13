@@ -56,13 +56,13 @@ const styles = StyleSheet.create ({
     padding: 20,
   },
   photo: {
-    width: 200,
-    height: 200,
+    width: 100,
+    height: 100,
   },
   textContainer: {
     backgroundColor: 'rgba(171, 184, 206, 0.3)',
     alignSelf: 'stretch',
-    marginTop: 30,
+    marginTop: 20,
     borderRadius: 30,
     alignItems: 'center',
     paddingHorizontal: 10,
