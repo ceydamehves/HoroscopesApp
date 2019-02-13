@@ -27,10 +27,43 @@ export default class HoroscopeComment extends React.Component {
           <View style={styles.textContainer}>
             <Text style={styles.text}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut metus non risus pulvinar viverra eu ac justo. Sed vitae ligula lacus. Nulla a porta magna. Vestibulum ultricies efficitur pharetra. Morbi quis condimentum tortor. Proin eros eros, sodales ac quam sit amet, eleifend malesuada nisi. Etiam tortor libero, iaculis vel gravida ut, bibendum eget risus. Nunc at facilisis mi. Nulla sem enim, porttitor at leo at, varius placerat dolor. Nam vel vestibulum sapien, vitae ornare libero. Cras consectetur posuere enim, ut elementum est tincidunt gravida. Phasellus pharetra metus in auctor scelerisque. Aliquam erat volutpat. Ut scelerisque mauris nisl, sed gravida orci vulputate eu. Donec est nisi, eleifend nec bibendum et, luctus eget arcu. Proin finibus rhoncus dui.
-              {' '}
             </Text>
           </View>
-        </View>
+        
+          <View style={styles.buttonsContainer}>
+           <View style={styles.buttonContainer}>
+           <TouchableOpacity style={styles.button}>
+             <Image 
+               source={require ('../assets/img/week.jpg')}
+               style={styles.buttonimg}
+             />
+           </TouchableOpacity>
+             
+           </View>
+
+           <View style={styles.buttonContainer}>
+           <TouchableOpacity style={styles.button}>
+           <Image 
+               source={require ('../assets/img/week.jpg')}
+               style={styles.buttonimg}
+             />
+           </TouchableOpacity>
+
+           </View>
+           <View style={styles.buttonContainer}>
+           <TouchableOpacity style={styles.button}>
+           <Image 
+               source={require ('../assets/img/week.jpg')}
+               style={styles.buttonimg}
+             />
+           </TouchableOpacity>
+
+           </View>
+
+          </View>
+
+          </View>
+        
       </ImageBackground>
     );
   }
@@ -71,4 +104,28 @@ const styles = StyleSheet.create ({
   text: {
     textAlign: 'center',
   },
+  buttonsContainer:{
+    alignSelf: 'stretch',
+    height: 200,
+    flexDirection:'row'
+  },
+  buttonContainer:{
+    flex:1,
+    justifyContent:'center',
+    alignItems:'center'
+    
+    
+  },
+  button:{
+    padding:15,
+    backgroundColor:'rgba(171, 184, 206, 0.3)',
+    borderRadius:15,
+    
+  },
+  buttonimg:{
+    width:60,
+    height:60,
+
+  }
+
 });
