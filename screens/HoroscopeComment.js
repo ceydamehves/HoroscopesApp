@@ -32,8 +32,12 @@ export default class HoroscopeComment extends React.Component {
         
           <View style={styles.buttonsContainer}>
            <View style={styles.buttonContainer}>
-           <TouchableOpacity style={styles.button}>
-             <Text style={{fontWeight:'bold'}}>
+           <TouchableOpacity style={styles.button} onPress={() => {
+                this.props.navigation.navigate ('HoroscopePages',{photo: this.props.navigation.getParam ('photo') })}}
+                  
+                >
+           
+             <Text style={styles.btntxt}>
                 AYLIK YORUM
              </Text>
            </TouchableOpacity>
@@ -41,21 +45,18 @@ export default class HoroscopeComment extends React.Component {
            </View>
 
            <View style={styles.buttonContainer}>
-           <TouchableOpacity style={styles.button}>
-              <Text style={{fontWeight:'bold'}}>
+           <TouchableOpacity style={styles.button} onPress={() => {
+                this.props.navigation.navigate ('HoroscopePages',{photo: this.props.navigation.getParam ('photo') })}}>
+              <Text style={styles.btntxt}>
                   HAFTALIK YORUM
               </Text>
            </TouchableOpacity>
 
            </View>
            <View style={styles.buttonContainer}>
-           <TouchableOpacity style={styles.button}>
-           <Text style={{fontWeight:'bold'}}>
-           <Text style = {styles.textShadow}>
-           YILLIK YORUM
-              </Text>
-                
-              </Text>
+           <TouchableOpacity style={styles.button} onPress={() => {
+                this.props.navigation.navigate ('HoroscopePages',{photo: this.props.navigation.getParam ('photo') })}}>
+           <Text style={styles.btntxt}> YILLIK YORUM</Text>
            </TouchableOpacity>
 
            </View>
@@ -113,19 +114,24 @@ const styles = StyleSheet.create ({
     flex:1,
     justifyContent:'center',
     alignItems:'center'
-    
-    
   },
   button:{
-    padding:15,
+    paddingHorizontal:10,
+    paddingVertical:10,
     backgroundColor:'rgba(171, 184, 206, 0.3)',
     borderRadius:15,
-    
   },
-  buttonimg:{
-    width:60,
-    height:60,
+  btntxt:{
+    fontWeight:'bold',
+    fontSize: 10,
+    ...Platform.select({
+      ios: {
+        fontFamily: 'Arial'
+      },
+      android: {
+        fontFamily: 'monospace'
+  },
+    }),
 
   }
-
 });
