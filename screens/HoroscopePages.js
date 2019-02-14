@@ -6,7 +6,7 @@ import {
   Image,
   Text,
   ImageBackground,
-  Platform,
+
 } from 'react-native';
 
 export default class HoroscopePages extends React.Component {
@@ -27,7 +27,7 @@ export default class HoroscopePages extends React.Component {
           </View>
           <View style={styles.textContainer}>
             <Text style={styles.text}>
-              Güncelleme 1.2 ile erişebileceksiniz. :)
+             Çok yakında güncelleme 1.0.2 ile erişebileceksiniz. :)
             </Text>
           </View>
         
