@@ -1,6 +1,7 @@
 import {createStackNavigator, createAppContainer} from 'react-navigation';
 import Horoscopes from '../screens/Horoscopes.js';
 import HoroscopeComment from '../screens/HoroscopeComment.js';
+import HoroscopePages from '../screens/HoroscopePages.js';
 
 const AppNavigator = createStackNavigator (
   {
@@ -10,6 +11,9 @@ const AppNavigator = createStackNavigator (
     HoroscopeComment: {
       screen: HoroscopeComment,
     },
+    HoroscopePages:{
+      screen: HoroscopePages,
+    } 
   },
   {
     headerMode: 'none',
