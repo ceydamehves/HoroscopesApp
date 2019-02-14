@@ -33,29 +33,29 @@ export default class HoroscopeComment extends React.Component {
           <View style={styles.buttonsContainer}>
            <View style={styles.buttonContainer}>
            <TouchableOpacity style={styles.button}>
-             <Image 
-               source={require ('../assets/img/week.jpg')}
-               style={styles.buttonimg}
-             />
+             <Text style={{fontWeight:'bold'}}>
+                AYLIK YORUM
+             </Text>
            </TouchableOpacity>
              
            </View>
 
            <View style={styles.buttonContainer}>
            <TouchableOpacity style={styles.button}>
-           <Image 
-               source={require ('../assets/img/week.jpg')}
-               style={styles.buttonimg}
-             />
+              <Text style={{fontWeight:'bold'}}>
+                  HAFTALIK YORUM
+              </Text>
            </TouchableOpacity>
 
            </View>
            <View style={styles.buttonContainer}>
            <TouchableOpacity style={styles.button}>
-           <Image 
-               source={require ('../assets/img/week.jpg')}
-               style={styles.buttonimg}
-             />
+           <Text style={{fontWeight:'bold'}}>
+           <Text style = {styles.textShadow}>
+           YILLIK YORUM
+              </Text>
+                
+              </Text>
            </TouchableOpacity>
 
            </View>
