@@ -6,9 +6,21 @@ import {
   Image,
   Text,
   ImageBackground,
+  Platform,
 } from 'react-native';
 
 export default class HoroscopeComment extends React.Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      text: 'loading...'
+    }
+    fetch('https://dailyhoroscope.haliliceylan.com/daily/'+this.props.navigation.getParam('horoscope','aries'))
+    .then((response) => (response.json()))
+    .then((response) => {
+      this.setState({text:response.text})
+      })
+  }
   render () {
     return (
       <ImageBackground
@@ -26,7 +38,7 @@ export default class HoroscopeComment extends React.Component {
           </View>
           <View style={styles.textContainer}>
             <Text style={styles.text}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut metus non risus pulvinar viverra eu ac justo. Sed vitae ligula lacus. Nulla a porta magna. Vestibulum ultricies efficitur pharetra. Morbi quis condimentum tortor. Proin eros eros, sodales ac quam sit amet, eleifend malesuada nisi. Etiam tortor libero, iaculis vel gravida ut, bibendum eget risus. Nunc at facilisis mi. Nulla sem enim, porttitor at leo at, varius placerat dolor. Nam vel vestibulum sapien, vitae ornare libero. Cras consectetur posuere enim, ut elementum est tincidunt gravida. Phasellus pharetra metus in auctor scelerisque. Aliquam erat volutpat. Ut scelerisque mauris nisl, sed gravida orci vulputate eu. Donec est nisi, eleifend nec bibendum et, luctus eget arcu. Proin finibus rhoncus dui.
+            {this.state.text}
             </Text>
           </View>
         

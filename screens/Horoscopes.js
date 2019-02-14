@@ -22,6 +22,7 @@ export default class Horoscopes extends React.Component {
               onPress={() => {
                 this.props.navigation.navigate ('HoroscopeComment', {
                   photo: require ('../assets/img/aries.png'),
+                  horoscope: 'aries',
                 });
               }}
             >
@@ -35,6 +36,7 @@ export default class Horoscopes extends React.Component {
               onPress={() => {
                 this.props.navigation.navigate ('HoroscopeComment', {
                   photo: require ('../assets/img/taurus.png'),
+                  horoscope: 'taurus',
                 });
               }}
             >
@@ -51,6 +53,7 @@ export default class Horoscopes extends React.Component {
               onPress={() => {
                 this.props.navigation.navigate ('HoroscopeComment', {
                   photo: require ('../assets/img/gemini.png'),
+                  horoscope: 'gemini',
                 });
               }}
             >
@@ -64,6 +67,7 @@ export default class Horoscopes extends React.Component {
               onPress={() => {
                 this.props.navigation.navigate ('HoroscopeComment', {
                   photo: require ('../assets/img/cancer.png'),
+                  horoscope: 'cancer',
                 });
               }}
             >
@@ -80,6 +84,7 @@ export default class Horoscopes extends React.Component {
               onPress={() => {
                 this.props.navigation.navigate ('HoroscopeComment', {
                   photo: require ('../assets/img/aquarius.png'),
+                  horoscope: 'aquarius',
                 });
               }}
             >
@@ -93,6 +98,7 @@ export default class Horoscopes extends React.Component {
               onPress={() => {
                 this.props.navigation.navigate ('HoroscopeComment', {
                   photo: require ('../assets/img/leo.png'),
+                  horoscope: 'leo',
                 });
               }}
             >
@@ -109,6 +115,7 @@ export default class Horoscopes extends React.Component {
               onPress={() => {
                 this.props.navigation.navigate ('HoroscopeComment', {
                   photo: require ('../assets/img/virgo.png'),
+                  horoscope: 'virgo',
                 });
               }}
             >
@@ -122,6 +129,7 @@ export default class Horoscopes extends React.Component {
               onPress={() => {
                 this.props.navigation.navigate ('HoroscopeComment', {
                   photo: require ('../assets/img/libra.png'),
+                  horoscope: 'libra',
                 });
               }}
             >
@@ -138,6 +146,7 @@ export default class Horoscopes extends React.Component {
               onPress={() => {
                 this.props.navigation.navigate ('HoroscopeComment', {
                   photo: require ('../assets/img/scorpio.png'),
+                  horoscope: 'scorpio',
                 });
               }}
             >
@@ -151,6 +160,7 @@ export default class Horoscopes extends React.Component {
               onPress={() => {
                 this.props.navigation.navigate ('HoroscopeComment', {
                   photo: require ('../assets/img/sagittarius.png'),
+                  horoscope: 'sagittarius',
                 });
               }}
             >
@@ -167,6 +177,7 @@ export default class Horoscopes extends React.Component {
               onPress={() => {
                 this.props.navigation.navigate ('HoroscopeComment', {
                   photo: require ('../assets/img/capricorn.png'),
+                  horoscope: 'capricorn',
                 });
               }}
             >
@@ -180,6 +191,7 @@ export default class Horoscopes extends React.Component {
               onPress={() => {
                 this.props.navigation.navigate ('HoroscopeComment', {
                   photo: require ('../assets/img/pisces.png'),
+                  horoscope: 'pisces',
                 });
               }}
             >
