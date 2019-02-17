@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "DailyHoroscopes-tvOS.app"
-               BlueprintName = "DailyHoroscopes-tvOS"
-               ReferencedContainer = "container:DailyHoroscopes.xcodeproj">
+               BuildableName = "GünlükBurçYorumu-tvOS.app"
+               BlueprintName = "GünlükBurçYorumu-tvOS"
+               ReferencedContainer = "container:GünlükBurçYorumu.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "DailyHoroscopes-tvOSTests.xctest"
-               BlueprintName = "DailyHoroscopes-tvOSTests"
-               ReferencedContainer = "container:DailyHoroscopes.xcodeproj">
+               BuildableName = "GünlükBurçYorumu-tvOSTests.xctest"
+               BlueprintName = "GünlükBurçYorumu-tvOSTests"
+               ReferencedContainer = "container:GünlükBurçYorumu.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "DailyHoroscopes-tvOSTests.xctest"
-               BlueprintName = "DailyHoroscopes-tvOSTests"
-               ReferencedContainer = "container:DailyHoroscopes.xcodeproj">
+               BuildableName = "GünlükBurçYorumu-tvOSTests.xctest"
+               BlueprintName = "GünlükBurçYorumu-tvOSTests"
+               ReferencedContainer = "container:GünlükBurçYorumu.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "DailyHoroscopes-tvOS.app"
-            BlueprintName = "DailyHoroscopes-tvOS"
-            ReferencedContainer = "container:DailyHoroscopes.xcodeproj">
+            BuildableName = "GünlükBurçYorumu-tvOS.app"
+            BlueprintName = "GünlükBurçYorumu-tvOS"
+            ReferencedContainer = "container:GünlükBurçYorumu.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "DailyHoroscopes-tvOS.app"
-            BlueprintName = "DailyHoroscopes-tvOS"
-            ReferencedContainer = "container:DailyHoroscopes.xcodeproj">
+            BuildableName = "GünlükBurçYorumu-tvOS.app"
+            BlueprintName = "GünlükBurçYorumu-tvOS"
+            ReferencedContainer = "container:GünlükBurçYorumu.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "DailyHoroscopes-tvOS.app"
-            BlueprintName = "DailyHoroscopes-tvOS"
-            ReferencedContainer = "container:DailyHoroscopes.xcodeproj">
+            BuildableName = "GünlükBurçYorumu-tvOS.app"
+            BlueprintName = "GünlükBurçYorumu-tvOS"
+            ReferencedContainer = "container:GünlükBurçYorumu.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

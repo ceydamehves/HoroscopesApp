@@ -1,4 +1,4 @@
-package com.dailyhoroscopes;
+package com.acolopsstudio.gunlukburcyorumu;
 
 import android.app.Application;
 
