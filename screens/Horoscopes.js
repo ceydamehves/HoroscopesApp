@@ -10,10 +10,11 @@ import {
 import {
   AdMobInterstitial
 } from 'react-native-admob';
+
 export default class Horoscopes extends React.Component {
   componentDidMount(){
     // Display an interstitial
-    AdMobInterstitial.setAdUnitID('ca-app-pub-3940256099942544/1033173712');
+    AdMobInterstitial.setAdUnitID('ca-app-pub-8119872254889935/2553983096');
     AdMobInterstitial.setTestDevices([AdMobInterstitial.simulatorId]);
     AdMobInterstitial.requestAd().then(() => AdMobInterstitial.showAd());
   }

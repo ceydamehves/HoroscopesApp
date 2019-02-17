@@ -27,11 +27,11 @@ export default class HoroscopeComment extends React.Component {
     return (
       <View style={{flex:1}}>
             <AdMobBanner
-  adSize="smartBanner"
-  adUnitID="ca-app-pub-3940256099942544/6300978111"
-  testDevices={[AdMobBanner.simulatorId]}
-  onAdFailedToLoad={error => console.error(error)}
-/>
+            adSize="smartBanner"
+            adUnitID="ca-app-pub-8119872254889935/6189975770"
+            testDevices={[AdMobBanner.simulatorId]}
+            onAdFailedToLoad={error => console.error(error)}
+          />
       <ImageBackground
         style={styles.bgContainer}
         source={require ('../assets/img/bg.jpg')}
@@ -88,10 +88,10 @@ export default class HoroscopeComment extends React.Component {
       </ImageBackground>
       <AdMobBanner
   adSize="smartBanner"
-  adUnitID="ca-app-pub-3940256099942544/6300978111"
+  adUnitID="ca-app-pub-8119872254889935/2745554780"
   testDevices={[AdMobBanner.simulatorId]}
   onAdFailedToLoad={error => console.error(error)}
-/>
+      />
       </View>
     );
   }
