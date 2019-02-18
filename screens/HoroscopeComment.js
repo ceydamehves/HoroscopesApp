@@ -48,9 +48,11 @@ export default class HoroscopeComment extends React.Component {
           <View style={styles.buttonsContainer}>
            <View style={styles.buttonContainer}>
            <TouchableOpacity style={styles.button} onPress={() => {
-                this.props.navigation.navigate ('HoroscopePages',{photo: this.props.navigation.getParam ('photo') })}}
-                  
-                >
+                this.props.navigation.navigate ('HoroscopePages',{
+                  photo: this.props.navigation.getParam ('photo'),
+                  timeInterval:"monthly",
+                  horoscope: this.props.navigation.getParam('horoscope')
+                })}}>
            
              <Text style={styles.btntxt}>
                 AYLIK YORUM
@@ -61,7 +63,11 @@ export default class HoroscopeComment extends React.Component {
 
            <View style={styles.buttonContainer}>
            <TouchableOpacity style={styles.button} onPress={() => {
-                this.props.navigation.navigate ('HoroscopePages',{photo: this.props.navigation.getParam ('photo') })}}>
+                this.props.navigation.navigate ('HoroscopePages',{
+                  photo: this.props.navigation.getParam ('photo'),
+                  timeInterval:"weekly",
+                  horoscope: this.props.navigation.getParam('horoscope')
+                   })}}>
               <Text style={styles.btntxt}>
                   HAFTALIK YORUM
               </Text>
@@ -70,7 +76,11 @@ export default class HoroscopeComment extends React.Component {
            </View>
            <View style={styles.buttonContainer}>
            <TouchableOpacity style={styles.button} onPress={() => {
-                this.props.navigation.navigate ('HoroscopePages',{photo: this.props.navigation.getParam ('photo') })}}>
+                this.props.navigation.navigate ('HoroscopePages',{
+                  photo: this.props.navigation.getParam ('photo'),
+                  timeInterval:"yearly",
+                  horoscope: this.props.navigation.getParam('horoscope')
+                   })}}>
            <Text style={styles.btntxt}> YILLIK YORUM</Text>
            </TouchableOpacity>
 

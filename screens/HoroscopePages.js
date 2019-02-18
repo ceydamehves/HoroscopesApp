@@ -10,6 +10,17 @@ import {
 } from 'react-native';
 
 export default class HoroscopePages extends React.Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      text: 'loading...'
+    }
+    fetch('https://dailyhoroscope.haliliceylan.com/'+this.props.navigation.getParam('timeInterval')+'/'+this.props.navigation.getParam('horoscope','aries'))
+    .then((response) => (response.json()))
+    .then((response) => {
+      this.setState({text:response.text})
+      })
+  }
   render () {
     return (
       <ImageBackground
@@ -27,7 +38,7 @@ export default class HoroscopePages extends React.Component {
           </View>
           <View style={styles.textContainer}>
             <Text style={styles.text}>
-             Çok yakında güncelleme 1.0.2 ile erişebileceksiniz. :)
+             {this.state.text}
             </Text>
           </View>
         
