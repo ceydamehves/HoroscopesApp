@@ -17,6 +17,9 @@ export default class HoroscopeComment extends React.Component {
     this.state = {
       text: 'loading...'
     }
+    this.trburcadlari=["Koç Burcu","Boğa Burcu","İkizler Burcu",'Yengeç Burcu','Aslan Burcu','Başak Burcu','Terazi Burcu',
+  'Akrep Burcu','Yay Burcu','Oğlak Burcu','Kova Burcu','Balık Burcu']
+    this.enburcadlari=["aries","taurus","gemini","cancer","leo","virgo","libra","scorpio","sagittarius","capricorn","aquarius","pisces"]
     fetch('https://dailyhoroscope.haliliceylan.com/daily/'+this.props.navigation.getParam('horoscope','aries'))
     .then((response) => (response.json()))
     .then((response) => {
@@ -31,6 +34,14 @@ export default class HoroscopeComment extends React.Component {
         source={require ('../assets/img/bg.jpg')}
       >
         <View style={styles.mainContainer}>
+        <View style={styles.titleContainer}>
+        <View style={styles.nameContainer}>
+            <Text>{this.trburcadlari[this.enburcadlari.indexOf(this.props.navigation.getParam('horoscope'))]}</Text>
+            </View>
+            <View style={styles.dateContainer}>
+            <Text>21 Ocak 2019</Text>
+            </View>
+        </View>
           <View style={styles.photoContainer}>
             <Image
               style={styles.photo}
@@ -133,6 +144,32 @@ const styles = StyleSheet.create ({
     paddingHorizontal: 10,
     paddingVertical: 30,
   },
+  titleContainer:{
+    alignSelf:"stretch",
+    flexDirection: "row",
+    justifyContent: "space-between"
+  },
+  nameContainer:{
+    backgroundColor: 'rgba(171, 184, 206, 0.3)',
+    marginTop: 10,
+    marginBottom:10,
+    borderRadius: 30,
+    alignItems: 'center',
+    alignSelf:'baseline',
+    paddingHorizontal: 10,
+    paddingVertical: 10,
+
+  },
+  dateContainer:{
+    backgroundColor: 'rgba(171, 184, 206, 0.3)',
+    marginTop: 10,
+    marginBottom:10,
+    borderRadius: 30,
+    alignItems: 'center',
+    alignSelf:'flex-end',
+    paddingHorizontal: 10,
+    paddingVertical: 10,
+  },
   text: {
     textAlign: 'center',
   },
@@ -162,7 +199,6 @@ const styles = StyleSheet.create ({
       android: {
         fontFamily: 'monospace'
   },
-    }),
-
+  }),
   }
 });
