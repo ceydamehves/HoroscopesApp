@@ -17,6 +17,7 @@ export default class HoroscopeComment extends React.Component {
     this.state = {
       text: 'loading...'
     }
+    this.dates=["21 Mart - 20 Nisan","21 Nisan - 21 Mayıs","22 Mayıs - 22 Haziran","23 Haziran - 22 Temmuz","23 Temmuz - 22 Ağustos","23 Ağustos - 22 Eylül","23 Eylül - 22 Ekim","23 Ekim - 21 Kasım","22 Kasım - 21 Aralık","22 Aralık - 21 Ocak","22 Ocak - 19 Şubat","20 Şubat - 20 Mart"]
     this.trburcadlari=["Koç Burcu","Boğa Burcu","İkizler Burcu",'Yengeç Burcu','Aslan Burcu','Başak Burcu','Terazi Burcu',
   'Akrep Burcu','Yay Burcu','Oğlak Burcu','Kova Burcu','Balık Burcu']
     this.enburcadlari=["aries","taurus","gemini","cancer","leo","virgo","libra","scorpio","sagittarius","capricorn","aquarius","pisces"]
@@ -39,7 +40,7 @@ export default class HoroscopeComment extends React.Component {
             <Text>{this.trburcadlari[this.enburcadlari.indexOf(this.props.navigation.getParam('horoscope'))]}</Text>
             </View>
             <View style={styles.dateContainer}>
-            <Text>21 Ocak 2019</Text>
+            <Text>{this.dates[this.enburcadlari.indexOf(this.props.navigation.getParam('horoscope'))]}</Text>
             </View>
         </View>
           <View style={styles.photoContainer}>
