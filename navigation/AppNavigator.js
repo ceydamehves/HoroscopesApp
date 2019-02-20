@@ -3,6 +3,7 @@ import MainScreen from '../screens/MainScreen.js';
 import Horoscopes from '../screens/Horoscopes.js';
 import HoroscopeComment from '../screens/HoroscopeComment.js';
 import HoroscopePages from '../screens/HoroscopePages.js';
+import HoroscopeFeatures from '../screens/HoroscopeFeatures.js';
 
 
 const AppNavigator = createStackNavigator (
@@ -18,7 +19,10 @@ const AppNavigator = createStackNavigator (
     },
     HoroscopePages:{
       screen: HoroscopePages,
-    } 
+    },
+    HoroscopeFeatures:{
+      screen: HoroscopeFeatures,
+    }
   },
   {
     headerMode: 'none',
