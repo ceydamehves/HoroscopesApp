@@ -34,11 +34,16 @@ export default class Horoscopes extends React.Component {
                   horoscope: 'aries',
                 });
               }}
+              
             >
+            
               <Image
                 source={require ('../assets/img/aries.png')}
                 style={styles.img}
               />
+              <Text style={styles.buttonText}>
+                KOÇ
+            </Text>
             </TouchableOpacity>
             <TouchableOpacity
               style={styles.button}
@@ -49,11 +54,15 @@ export default class Horoscopes extends React.Component {
                 });
               }}
             >
+            
 
               <Image
                 source={require ('../assets/img/taurus.png')}
                 style={styles.img}
               />
+              <Text style={styles.buttonText}>
+                BOĞA
+            </Text>
             </TouchableOpacity>
           </View>
           <View style={[styles.rowContainer, styles.rowContainerEven]}>
@@ -66,10 +75,14 @@ export default class Horoscopes extends React.Component {
                 });
               }}
             >
+            
               <Image
                 source={require ('../assets/img/gemini.png')}
                 style={styles.img}
               />
+              <Text style={styles.buttonText}>
+                İKİZLER
+            </Text>
             </TouchableOpacity>
             <TouchableOpacity
               style={styles.button}
@@ -80,11 +93,15 @@ export default class Horoscopes extends React.Component {
                 });
               }}
             >
+            
 
               <Image
                 source={require ('../assets/img/cancer.png')}
                 style={styles.img}
               />
+              <Text style={styles.buttonText}>
+                YENGEÇ
+            </Text>
             </TouchableOpacity>
           </View>
           <View style={[styles.rowContainer, styles.rowContainerOdd]}>
@@ -97,10 +114,14 @@ export default class Horoscopes extends React.Component {
                 });
               }}
             >
+            
               <Image
                 source={require ('../assets/img/aquarius.png')}
                 style={styles.img}
               />
+              <Text style={styles.buttonText}>
+                KOVA
+            </Text>
             </TouchableOpacity>
             <TouchableOpacity
               style={styles.button}
@@ -111,11 +132,15 @@ export default class Horoscopes extends React.Component {
                 });
               }}
             >
+            
 
               <Image
                 source={require ('../assets/img/leo.png')}
                 style={styles.img}
               />
+              <Text style={styles.buttonText}>
+                ASLAN
+            </Text>
             </TouchableOpacity>
           </View>
           <View style={[styles.rowContainer, styles.rowContainerEven]}>
@@ -128,10 +153,14 @@ export default class Horoscopes extends React.Component {
                 });
               }}
             >
+            
               <Image
                 source={require ('../assets/img/virgo.png')}
                 style={styles.img}
               />
+              <Text style={styles.buttonText}>
+                BAŞAK
+            </Text>
             </TouchableOpacity>
             <TouchableOpacity
               style={styles.button}
@@ -142,11 +171,15 @@ export default class Horoscopes extends React.Component {
                 });
               }}
             >
+            
 
               <Image
                 source={require ('../assets/img/libra.png')}
                 style={styles.img}
               />
+              <Text style={styles.buttonText}>
+                TERAZİ
+            </Text>
             </TouchableOpacity>
           </View>
           <View style={[styles.rowContainer, styles.rowContainerOdd]}>
@@ -159,10 +192,14 @@ export default class Horoscopes extends React.Component {
                 });
               }}
             >
+            
               <Image
                 source={require ('../assets/img/scorpio.png')}
                 style={styles.img}
               />
+              <Text style={styles.buttonText}>
+                AKREP
+            </Text>
             </TouchableOpacity>
             <TouchableOpacity
               style={styles.button}
@@ -173,11 +210,13 @@ export default class Horoscopes extends React.Component {
                 });
               }}
             >
-
               <Image
                 source={require ('../assets/img/sagittarius.png')}
                 style={styles.img}
               />
+              <Text style={styles.buttonText}>
+                YAY
+            </Text>
             </TouchableOpacity>
           </View>
           <View style={[styles.rowContainer, styles.rowContainerEven]}>
@@ -190,10 +229,14 @@ export default class Horoscopes extends React.Component {
                 });
               }}
             >
+            
               <Image
                 source={require ('../assets/img/capricorn.png')}
                 style={styles.img}
               />
+              <Text style={styles.buttonText}>
+                OĞLAK
+            </Text>
             </TouchableOpacity>
             <TouchableOpacity
               style={styles.button}
@@ -204,11 +247,13 @@ export default class Horoscopes extends React.Component {
                 });
               }}
             >
-
               <Image
                 source={require ('../assets/img/pisces.png')}
                 style={styles.img}
               />
+              <Text style={styles.buttonText}>
+                BALIK
+            </Text>
             </TouchableOpacity>
           </View>
         </View>
@@ -223,7 +268,7 @@ const styles = StyleSheet.create ({
     alignItems: 'stretch',
     justifyContent: 'center',
     paddingHorizontal: 30,
-    paddingVertical: 20,
+    paddingVertical: 10,
   },
   rowContainer: {
     flexDirection: 'row',
@@ -234,7 +279,7 @@ const styles = StyleSheet.create ({
     marginHorizontal: -30,
   },
   rowContainerOdd: {
-    marginHorizontal: 30,
+    marginHorizontal: 40,
   },
   mainContainer: {
     flex: 1,
@@ -242,11 +287,21 @@ const styles = StyleSheet.create ({
   },
   button: {
     backgroundColor: 'rgba(171, 184, 206,0.3)',
-    borderRadius: 50,
-    padding: 12,
+    borderRadius: 45,
+    padding: 10,
   },
   img: {
-    width: 80,
-    height: 80,
+    width: 70,
+    height: 70,
   },
+  buttonText:{
+    fontWeight:'bold',
+    fontSize:10,
+    alignSelf:'center',
+    
+    
+
+
+  }
+
 });
