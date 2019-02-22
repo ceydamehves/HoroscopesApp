@@ -4,6 +4,9 @@ import Horoscopes from '../screens/Horoscopes.js';
 import HoroscopeComment from '../screens/HoroscopeComment.js';
 import HoroscopePages from '../screens/HoroscopePages.js';
 import HoroscopeFeatures from '../screens/HoroscopeFeatures.js';
+import StylesofHoroscopes from '../screens/StylesofHoroscopes.js';
+import HoroscopeHarmony from '../screens/HoroscopeHarmony.js';
+import RisingSign from '../screens/RisingSign.js';
 
 
 const AppNavigator = createStackNavigator (
@@ -22,6 +25,15 @@ const AppNavigator = createStackNavigator (
     },
     HoroscopeFeatures:{
       screen: HoroscopeFeatures,
+    },
+    StylesofHoroscopes:{
+      screen: StylesofHoroscopes,
+    },
+    HoroscopeHarmony:{
+      screen: HoroscopeHarmony,
+    },
+    RisingSign:{
+      screen: RisingSign,
     }
   },
   {

@@ -293,6 +293,7 @@ const styles = StyleSheet.create ({
   img: {
     width: 70,
     height: 70,
+    
   },
   buttonText:{
     fontWeight:'bold',
