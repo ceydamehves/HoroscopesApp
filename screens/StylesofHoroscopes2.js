@@ -11,7 +11,7 @@ import {
 
 
 
-export default class RisingSign extends React.Component {
+export default class StylesofHoroscopes2 extends React.Component {
   render () {
     return (
         <ImageBackground
