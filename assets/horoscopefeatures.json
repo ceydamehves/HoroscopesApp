@@ -1,0 +1,182 @@
+{
+    "aries":{
+        "lines":[
+            "KOÇ BURCU ÖZELLİKLERİ",
+            "Yönetici Yıldızınız: Mars ",
+            "Grubunuz: Ateş-Pozitif",
+            "Burcunuzun Cinsiyeti: Erkek",
+            "Amacınız: Başarı.",
+            "Üstün Yeteneğiniz: Canlılık ve hareket.",
+            "Özelliğiniz: Yeni girişimler,cesaret ve atılganlık.",
+            "Emeliniz: Öncülük, liderlik ve yol göstericilik.",
+            "Yenmeniz Gereken Huyunuz: Sabırsızlık.."
+        ]
+    },
+    "taurus":{
+        "lines":[
+            "BOĞA BURCU ÖZELLİKLERİ",
+            "Yönetici Yıldızınız: Venüs. ",
+            "Grubunuz: Toprak, negatif.",
+            "Burcunuzun cinsiyeti: Dişi.",
+            "Üstün yeteneğiniz: Sıcakkanlı olmak ve istediğini bilmek.",
+            "Özelliğiniz: Dost ruh ve koruyuculuk. ",
+            "Emeliniz: Devamlı ileri atılım.",
+            "Amacınız: Mal, mülk, lüks. ",
+            "Anahtar Sözcüğünüz: Süreklilik.",
+            "Yenmeniz gereken huyunuz: Alınganlık, küsmek, lüks özlemi ve bencillik."
+        ]
+    },
+    "gemini":{
+        "lines":[
+            "İKİZLER BURCU ÖZELLİKLERİ",
+            "Yönetici Yıldızınız: Merkür. ",
+            "Grubunuz: Hava, pozitif.",
+            "Burcunuzun cinsiyeti: Erkek.",
+            "Üstün yeteneğiniz: Üstün zeka.",
+            "Özelliğiniz: Yardımcı olmak ve neşe katmak. ",
+            "Emeliniz: Gazetecilik,yazarlık.",
+            "Amacınız: Ünlü olmak, büyük isim yapmak. ",
+            "Anahtar Sözcüğünüz: Süreklilik.",
+            "Yenmeniz gereken huyunuz: Çok konuşmak."
+            
+
+        ]
+    },
+    "cancer":{
+        "lines":[
+            "YENGEÇ BURCU ÖZELLİKLERİ",
+            "Yönetici Yıldızınız: Ay. ",
+            "Grubunuz: Su, negatif.",
+            "Burcunuzun cinsiyeti: Dişi.",
+            "Üstün yeteneğiniz: Sabırlı olmak.",
+            "Özelliğiniz: Merhametli,yumuşak huylu olmak. ",
+            "Emeliniz: Büyük para sahibi olmak.",
+            "Amacınız: Daima yükselmek. ",
+            "Anahtar Sözcüğünüz: Koruyuculuk.",
+            "Yenmeniz gereken huyunuz: Dikkatsizlik."
+            
+
+        ]
+    },
+    "aquarius":{
+        "lines":[
+            "KOVA BURCU ÖZELLİKLERİ",
+            "Yönetici Yıldızınız: Uranüs. ",
+            "Grubunuz: Hava, pozitif.",
+            "Burcunuzun cinsiyeti: Erkek.",
+            "Üstün yeteneğiniz: Sağduyu.",
+            "Özelliğiniz: İnsancıl,iradeli. ",
+            "Emeliniz: İlerlemeyi sağlayacak imkanlar yaratmak.",
+            "Amacınız: Yükselmek,başkalarına yardım etmek. ",
+            "Anahtar Sözcüğünüz: Bağımsızlık.",
+            "Yenmeniz gereken huyunuz: İhmalcilik ve paraya değer vermemek."
+
+
+        ]
+    },
+    "leo":{
+        "lines":[
+            "ASLAN BURCU ÖZELLİKLERİ",
+            "Yönetici Yıldızınız: Güneş. ",
+            "Grubunuz: Ateş, pozitif.",
+            "Burcunuzun cinsiyeti: Erkek.",
+            "Üstün yeteneğiniz: Plan kurma.",
+            "Özelliğiniz: Cömertlik. ",
+            "Emeliniz: Yükseğe ulaşmak.",
+            "Amacınız: Çok şeye kavuşmak. ",
+            "Anahtar Sözcüğünüz: Yaratıcılık.",
+            "Yenmeniz gereken huyunuz: Kendini beğenmek."
+
+        ]
+    },
+    "virgo":{
+        "lines":[
+            "BAŞAK BURCU ÖZELLİKLERİ",
+            "Yönetici Yıldızınız: Merkür. ",
+            "Grubunuz: Toprak, negatif.",
+            "Burcunuzun cinsiyeti: Dişi.",
+            "Üstün yeteneğiniz: Disiplinli ve metodlu bir hayat.",
+            "Özelliğiniz: Dikkatli ve herşeyle ilgili olmak. ",
+            "Emeliniz: Toplum içinde beğenilmek.",
+            "Amacınız: Başarı yolunda daima yükselmek. ",
+            "Anahtar Sözcüğünüz: İnceleyicilik.",
+            "Yenmeniz gereken huyunuz: Çekingenlik ve cesaretsizlik."
+
+        ]
+    },
+    "libra":{
+        "lines":[
+            "TERAZİ BURCU ÖZELLİKLERİ",
+            "Yönetici Yıldızınız: Venüs. ",
+            "Grubunuz: Hava, negatif.",
+            "Burcunuzun cinsiyeti: Erkek.",
+            "Üstün yeteneğiniz: Dengeli ve ölçülü olmak.",
+            "Özelliğiniz: Saygı ve zariflik. ",
+            "Emeliniz: Olgun, düzeyli dostluk kurmak.",
+            "Amacınız: Zengin olak,düzenli bir hayat. ",
+            "Anahtar Sözcüğünüz: Denge.",
+            "Yenmeniz gereken huyunuz: Gösterişten hoşlanmak."
+
+        ]
+    },
+    "scorpio":{
+        "lines":[
+            "AKREP BURCU ÖZELLİKLERİ",
+            "Yönetici Yıldızınız: Mars. ",
+            "Grubunuz: Su, negatif.",
+            "Burcunuzun cinsiyeti: Dişi.",
+            "Üstün yeteneğiniz: Sezgi.",
+            "Özelliğiniz: Kararlılık ve inceleme. ",
+            "Emeliniz: Zenginlik.",
+            "Amacınız: Hayat boyu zenginlik. ",
+            "Anahtar Sözcüğünüz: Tutkulu.",
+            "Yenmeniz gereken huyunuz: Acımamak, ihmal etmek."
+
+        ]
+    },
+    "sagittarius":{
+        "lines":[
+            "YAY BURCU ÖZELLİKLERİ",
+            "Yönetici Yıldızınız: Jüpiter. ",
+            "Grubunuz: Ateş, pozitif.",
+            "Burcunuzun cinsiyeti: Erkek.",
+            "Üstün yeteneğiniz: Kendine güven.",
+            "Özelliğiniz: İyimserlik, girişimcilik. ",
+            "Emeliniz: Büyük üne kavuşmak.",
+            "Amacınız: Çok gezip görmek, çok şeye kavuşmak. ",
+            "Anahtar Sözcüğünüz: Araştırmacı.",
+            "Yenmeniz gereken huyunuz: Başkalarını küçümsemek."
+
+        ]
+    },
+    "capricorn":{
+        "lines":[
+            "OĞLAK BURCU ÖZELLİKLERİ",
+            "Yönetici Yıldızınız: Satürn. ",
+            "Grubunuz: Toprak, negatif.",
+            "Burcunuzun cinsiyeti: Dişi.",
+            "Üstün yeteneğiniz: Karar ve direniş.",
+            "Özelliğiniz: Dürüstlük. ",
+            "Emeliniz: Yükselmek.",
+            "Amacınız: Yükseğe ulaşıp başta kalmak.",
+            "Anahtar Sözcüğünüz: Önlemci.",
+            "Yenmeniz gereken huyunuz: Fazla meraklılık."
+
+        ]
+    },
+    "pisces":{
+        "lines":[
+            "BALIK BURCU ÖZELLİKLERİ",
+            "Yönetici Yıldızınız: Neptün. ",
+            "Grubunuz: Su, negatif.",
+            "Burcunuzun cinsiyeti: Dişi.",
+            "Üstün yeteneğiniz: Başkalarına karşı ilgi, şefkat.",
+            "Özelliğiniz: Canlılık. ",
+            "Emeliniz: Huzur.",
+            "Amacınız: Servete ve mutluluğa ulaşmak. ",
+            "Anahtar Sözcüğünüz: Hayalcilik.",
+            "Yenmeniz gereken huyunuz: Kendi değerinizi küçümsemek."
+
+        ]
+    }
+}
