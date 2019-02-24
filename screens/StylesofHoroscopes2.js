@@ -12,13 +12,36 @@ import {
 
 
 export default class StylesofHoroscopes2 extends React.Component {
+    constructor(props){
+        super(props)
+        StylesofHoroscopes = require('../assets/stylesofhoroscopes.json');
+        horoscope = this.props.navigation.getParam('horoscope','aries')
+        this.state = {
+          text: StylesofHoroscopes[horoscope]['lines']
+          .map((k,v) => (<Text id={v} style={styles.text}>{k}</Text>))
+        }
+        
+      }
   render () {
     return (
-        <ImageBackground
-        style={styles.bgContainer}
-        source={require ('../assets/img/bg.jpg')}
-        ></ImageBackground>
-
+    
+        <View style={{flex:1}}>
+          <ImageBackground
+            style={styles.bgContainer}
+            source={require ('../assets/img/bg.jpg')}
+           >
+           <View style={styles.imageContainer}>
+            <Image
+              style={styles.image}
+              source={this.props.navigation.getParam('photo')}
+            ></Image>
+           </View>
+           <View style={styles.textContainer}>
+           {this.state.text}
+           </View>
+           </ImageBackground>
+        </View>
+        
 
 
     );
@@ -28,12 +51,33 @@ export default class StylesofHoroscopes2 extends React.Component {
   const styles = StyleSheet.create ({
     bgContainer: {
       flex: 1,
-      alignItems: 'stretch',
+      alignItems: 'center',
       justifyContent: 'center',
-      paddingHorizontal: 30,
+      paddingHorizontal: 10,
       paddingVertical: 10,
+    },
+    textContainer: {
+        backgroundColor: 'rgba(171, 184, 206, 0.1)',
+        alignSelf: 'stretch',
+        marginTop: 1,
+        borderRadius: 40,
+        alignItems: 'center',
+    },
+    text: {
+        textAlign: 'center',
+        fontWeight:'bold',
+        fontSize: 15,
+        fontFamily:'MarkPro Medium'
+    },
+    image:{
+      width:150,
+      height:150
+    },
+    imageContainer:{
+        borderRadius: 80,
+        padding: 15,
+        backgroundColor: 'rgba(171, 184, 206, 0.1)',
     }
-
 
 
 });
