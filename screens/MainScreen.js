@@ -45,16 +45,7 @@ export default class MainScreen extends React.Component {
             </Text>
             
           </TouchableOpacity>
-          <TouchableOpacity
-            style={styles.button}
-            onPress={() => {
-                this.props.navigation.navigate ('AscendantSign')               
-            }}>
-            <Text style={styles.btntxt}>
-                YÜKSELEN BURCUNUZ
-            </Text>
-            
-          </TouchableOpacity>
+          
           <TouchableOpacity
             style={styles.button}
             onPress={() => {
