@@ -8,6 +8,9 @@ import {
   ImageBackground,
   Platform,
 } from 'react-native';
+import {
+  AdMobBanner,
+} from 'react-native-admob'
 
 
 
@@ -40,6 +43,12 @@ export default class StylesofHoroscopes2 extends React.Component {
            {this.state.text}
            </View>
            </ImageBackground>
+                <AdMobBanner
+              adSize="smartBanner"
+              adUnitID="ca-app-pub-8119872254889935/2745554780"
+              testDevices={[AdMobBanner.simulatorId]}
+              onAdFailedToLoad={error => console.error(error)}
+                />
         </View>
         
 
