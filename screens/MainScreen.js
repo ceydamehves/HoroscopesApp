@@ -101,8 +101,7 @@ const styles = StyleSheet.create({
       backgroundColor: 'rgba(171, 184, 206,0.3)',
       borderRadius: 70,
       padding: 25,
-      
-
+      marginBottom: 10,
     },
     btntxt:{
       fontWeight:'bold',
