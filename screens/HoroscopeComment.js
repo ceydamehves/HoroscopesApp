@@ -192,7 +192,7 @@ const styles = StyleSheet.create ({
   },
   btntxt:{
     fontWeight:'bold',
-    fontSize: 10,
+    fontSize: 9,
     ...Platform.select({
       ios: {
         fontFamily: 'Arial'
