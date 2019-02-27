@@ -5,6 +5,7 @@ import AppContainer from './navigation/AppNavigator.js';
 export default class App extends React.Component {
   constructor(props){
     super(props)
+    var PushNotification = require('react-native-push-notification');
     PushNotification.cancelAllLocalNotifications()
     notificationRepeatTime = 12 * 60 * 60 * 1000;
     PushNotification.localNotificationSchedule({  
