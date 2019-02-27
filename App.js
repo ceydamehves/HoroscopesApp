@@ -3,6 +3,17 @@ import {StatusBar,View} from 'react-native';
 import AppContainer from './navigation/AppNavigator.js';
 
 export default class App extends React.Component {
+  constructor(props){
+    super(props)
+    PushNotification.cancelAllLocalNotifications()
+    notificationRepeatTime = 12 * 60 * 60 * 1000;
+    PushNotification.localNotificationSchedule({  
+      message: "Günlük Burç Yorumunuzu Okudunuz Mu ?", // (required)
+      date: new Date(Date.now() + notificationRepeatTime),
+      repeatType: 'time',
+      repeatTime: notificationRepeatTime 
+    });
+  }
   render () {
     return (
     <View style={{flex:1}}>
