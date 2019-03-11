@@ -6,6 +6,7 @@ import {
   Image,
   Text,
   ImageBackground,
+  Dimensions,
 } from 'react-native';
 import {
   AdMobInterstitial
@@ -291,9 +292,8 @@ const styles = StyleSheet.create ({
     padding: 10,
   },
   img: {
-    width: 70,
-    height: 70,
-    
+    width: Dimensions.get('window').width * 0.18,
+    height: Dimensions.get('window').width * 0.18
   },
   buttonText:{
     fontWeight:'bold',
