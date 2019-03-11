@@ -40,6 +40,8 @@ export default class HoroscopeHarmony2 extends React.Component {
            </View>
            <View style={styles.textContainer}>
            {this.state.text}
+           
+
            </View>
            </ImageBackground>
                 <AdMobBanner
@@ -73,9 +75,10 @@ export default class HoroscopeHarmony2 extends React.Component {
     },
     text: {
         textAlign: 'center',
+        color : 'black',
         fontWeight:'bold',
         fontSize: 15,
-        fontFamily:'MarkPro Medium'
+        fontFamily:'sans-serif'
     },
     image:{
       width:150,

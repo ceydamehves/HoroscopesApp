@@ -105,6 +105,7 @@ const styles = StyleSheet.create({
     },
     btntxt:{
       fontWeight:'bold',
+      color : 'black',
       fontSize: 15,
       ...Platform.select({
         ios: {

@@ -290,6 +290,7 @@ const styles = StyleSheet.create ({
   },
   buttonText:{
     fontWeight:'bold',
+    color : 'black',
     fontSize:10,
     alignSelf:'center',
     

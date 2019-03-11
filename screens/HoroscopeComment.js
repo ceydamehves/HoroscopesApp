@@ -173,6 +173,9 @@ const styles = StyleSheet.create ({
   },
   text: {
     textAlign: 'center',
+    color : 'black',
+    fontWeight: 'bold',
+    fontSize: 18
   },
   buttonsContainer:{
     alignSelf: 'stretch',
@@ -192,6 +195,7 @@ const styles = StyleSheet.create ({
   },
   btntxt:{
     fontWeight:'bold',
+    color : 'black',
     fontSize: 9,
     ...Platform.select({
       ios: {

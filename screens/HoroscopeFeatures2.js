@@ -74,8 +74,9 @@ export default class HoroscopeFeatures2 extends React.Component {
     text: {
         textAlign: 'center',
         fontWeight:'bold',
+        color : 'black',
         fontSize: 15,
-        fontFamily:'MarkPro Medium'
+        fontFamily: 'Verdana'
     },
     image:{
       width:150,

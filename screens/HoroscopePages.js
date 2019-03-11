@@ -82,6 +82,7 @@ const styles = StyleSheet.create ({
   },
   text: {
     textAlign: 'center',
+    color : 'black',
   },
   buttonsContainer:{
     alignSelf: 'stretch',
